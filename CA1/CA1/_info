@@ -1,0 +1,609 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alibo/OneDrive/Desktop
+vsevenSegmentDecoder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1730575563
+!i10b 1
+!s100 gL3E98h0kUHP9THcEzO>D2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ian;eh4ZdAo[N3gQ?7n@Y^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1
+w1730472061
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoder.sv
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoder.sv
+!i122 51
+L0 2 23
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1730575563.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoder.sv|
+!s90 -reportprogress|300|-work|CA1|-sv|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoder.sv|
+!i113 1
+o-work CA1 -sv
+Z7 tCvgOpt 0
+nseven@segment@decoder
+vsevenSegmentDecoderBehavioral
+R0
+Z8 !s110 1730575564
+!i10b 1
+!s100 b?BTJ:cUmdoj@N6d3QIoR1
+R2
+I^l7j6CSH^g`1KmoNbn2:M1
+R3
+S1
+R4
+w1730536228
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioral.sv
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioral.sv
+!i122 53
+L0 2 9
+R5
+r1
+!s85 0
+31
+Z9 !s108 1730575564.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioral.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioral.sv|
+!i113 1
+Z10 o-work work -sv
+R7
+nseven@segment@decoder@behavioral
+vsevenSegmentDecoderBehavioralTBfor0
+R0
+R8
+!i10b 1
+!s100 :jc8^C@QdamfTNYhdTCWd3
+R2
+IdUco;i>I4?UDZ1jaf<Hz;2
+R3
+S1
+R4
+Z11 w1730535439
+Z12 8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioralTB.sv
+Z13 FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioralTB.sv
+!i122 54
+Z14 L0 2 12
+R5
+r1
+!s85 0
+31
+R9
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioralTB.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioralTB.sv|
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor0
+vsevenSegmentDecoderBehavioralTBfor1
+R0
+R8
+!i10b 1
+!s100 da]HJbRA8];V;A40BTKNG2
+R2
+IneVc`lGI=<i8?<H2h1iBO3
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z16 L0 15 12
+R5
+r1
+!s85 0
+31
+R9
+Z17 !s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderBehavioralTB.sv|
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor1
+vsevenSegmentDecoderBehavioralTBfor2
+R0
+R8
+!i10b 1
+!s100 =P6GimJdV0OYObE4Pc8hn0
+R2
+IHijCE5b[UHeE=DYCLGdGH2
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z18 L0 28 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor2
+vsevenSegmentDecoderBehavioralTBfor3
+R0
+R8
+!i10b 1
+!s100 kXQDUHo8cjfc5fFM3WSRb1
+R2
+I85=j=5YDRVZlA:B79?=fe0
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z19 L0 41 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor3
+vsevenSegmentDecoderBehavioralTBfor4
+R0
+R8
+!i10b 1
+!s100 9Ujfm3PbjIR:lciPVeY>K3
+R2
+I`Y1cddJK^7YogjN=XR_ZF1
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z20 L0 54 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor4
+vsevenSegmentDecoderBehavioralTBfor5
+R0
+R8
+!i10b 1
+!s100 f5?eK^ddkfzR>HLfM`Y:a1
+R2
+ImAC5ib@;PHOz@EA6[]@HY3
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z21 L0 67 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor5
+vsevenSegmentDecoderBehavioralTBfor6
+R0
+R8
+!i10b 1
+!s100 ojY<MHi<FK<j3B18]:M:n3
+R2
+I;7i7^9chPcl70S0_SbG901
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z22 L0 80 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor6
+vsevenSegmentDecoderBehavioralTBfor7
+R0
+R8
+!i10b 1
+!s100 RneAG:UiEPe>DOEDdZ1WL2
+R2
+I2Qomk7mKjczjFD7`K_PeU0
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z23 L0 93 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor7
+vsevenSegmentDecoderBehavioralTBfor8
+R0
+R8
+!i10b 1
+!s100 AIfFGePG[O2D_WNSHg2FV3
+R2
+I2n7f[`hgd]]K1eF4Y82_]2
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z24 L0 106 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor8
+vsevenSegmentDecoderBehavioralTBfor9
+R0
+R8
+!i10b 1
+!s100 HZVzl6^8HDg3BPnSBR8X73
+R2
+IJfA5Y:?n>P61f:knmAZE;1
+R3
+S1
+R4
+R11
+R12
+R13
+!i122 54
+Z25 L0 119 12
+R5
+r1
+!s85 0
+31
+R9
+R17
+R15
+!i113 1
+R10
+R7
+nseven@segment@decoder@behavioral@t@bfor9
+vsevenSegmentDecoderTB
+R0
+!s110 1730479678
+!i10b 1
+!s100 :89UVAzEjOOWQLD_Sd:UW2
+R2
+I^QiFTC@IUOgU0c>DW72Yd2
+R3
+S1
+R4
+w1730479672
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTBfor0.sv
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTBfor0.sv
+!i122 31
+R14
+R5
+r1
+!s85 0
+31
+!s108 1730479678.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTBfor0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTBfor0.sv|
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@b
+vsevenSegmentDecoderTBfor0
+R0
+R1
+!i10b 1
+!s100 84A0f0_0S]S=X@:_h4Wd:2
+R2
+Immc^Z<RFH5YfRHDO[ELdn0
+R3
+S1
+R4
+Z26 w1730480103
+Z27 8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTB.sv
+Z28 FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTB.sv
+!i122 52
+R14
+R5
+r1
+!s85 0
+31
+R6
+Z29 !s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTB.sv|
+Z30 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA1/sevenSegmentDecoderTB.sv|
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor0
+vsevenSegmentDecoderTBfor1
+R0
+R1
+!i10b 1
+!s100 :K1<8>5F0ck4;7jb3ce[_2
+R2
+I^cXKj9GmRjLLZWLD<E7hg3
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R16
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor1
+vsevenSegmentDecoderTBfor2
+R0
+R1
+!i10b 1
+!s100 @ZZ;918P@c4ibc03H<eH>1
+R2
+IgQ:kacb@1IeOBiz37?zcP2
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R18
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor2
+vsevenSegmentDecoderTBfor3
+R0
+R1
+!i10b 1
+!s100 nj;UN7RT;>dM?E^d37ISB3
+R2
+I>]jEMMIz[on^[lzdGH0P92
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R19
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor3
+vsevenSegmentDecoderTBfor4
+R0
+R1
+!i10b 1
+!s100 oM0gih2baoUQ`M^M3CZCo0
+R2
+I7Dm6U?G<bKP_i9cH87S0U0
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R20
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor4
+vsevenSegmentDecoderTBfor5
+R0
+R1
+!i10b 1
+!s100 bHJJ8ZJJcn6?=6Kmn`DCL2
+R2
+IZVz_cA:NPbX]>V^W>Wjff0
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R21
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor5
+vsevenSegmentDecoderTBfor6
+R0
+R1
+!i10b 1
+!s100 NV<]eS9@e_flP7e2j4ZXo2
+R2
+IQgIbcR;hfJazLOWHED=Sn0
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R22
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor6
+vsevenSegmentDecoderTBfor7
+R0
+R1
+!i10b 1
+!s100 >C8UQQ18CMjhC^2VnmlIH1
+R2
+I8BX;0?0hV3F>KXYhM0Idm2
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R23
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor7
+vsevenSegmentDecoderTBfor8
+R0
+R1
+!i10b 1
+!s100 =W65VoNY3C?:DIRQW2hED0
+R2
+I74MhHzj2JJfi4LCE[]o=K0
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R24
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor8
+vsevenSegmentDecoderTBfor9
+R0
+R1
+!i10b 1
+!s100 4hXHQBV0e5VP]BWNOFDP=1
+R2
+Ic@0c=5=c^Zb^oaPf3n[L@2
+R3
+S1
+R4
+R26
+R27
+R28
+!i122 52
+R25
+R5
+r1
+!s85 0
+31
+R6
+R29
+R30
+!i113 1
+R10
+R7
+nseven@segment@decoder@t@bfor9
