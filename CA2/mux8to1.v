@@ -1,5 +1,5 @@
 module mux8to1 (w, s, f);
-    input [7:0] w;
+    input [0:7] w;
     input [2:0] s;
     output reg [3:0] f;
 
@@ -14,7 +14,7 @@ module mux8to1 (w, s, f);
             3'b101: f = w[5];
             3'b110: f = w[6];
             3'b111: f = w[7];
-            default: f = 4'b0000;
+            default: f = 1'b0;
         endcase
     end
 endmodule
