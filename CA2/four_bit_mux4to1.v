@@ -1,4 +1,4 @@
-module 4bit_mux4to1 (w, s, f);
+module four_bit_mux4to1 (w, s, f);
     input [15:0] w;
     input [2:0] s;
     output reg [3:0] f;

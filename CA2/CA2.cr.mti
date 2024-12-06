@@ -1,0 +1,36 @@
+{E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/adder.v} {1 {vlog -work CA2 -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/comparator.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/comparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/top_module.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/top_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top_Module
+
+Top level modules:
+	Top_Module
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/core_system.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/core_system.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module core_system
+
+Top level modules:
+	core_system
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/mux8to1.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2/mux8to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux8to1
+
+Top level modules:
+	mux8to1
+
+} {} {}}

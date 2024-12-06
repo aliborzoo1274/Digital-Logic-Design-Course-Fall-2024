@@ -22,6 +22,6 @@ module comparator (x, y, x_gt_y, x_eq_y, x_lt_y);
     and a3 (w_and[3], i[3], i[2], i[1], w_not[3], x[0]);
     and a4 (x_eq_y, i[3], i[2], i[1], i[0]);
 
-    or gt (x_gt_y, a0, a1, a2, a3);
+    or gt (x_gt_y, w_and[0], w_and[1], w_and[2], w_and[3]);
     nor lt (x_lt_y, x_eq_y, x_gt_y);
 endmodule
