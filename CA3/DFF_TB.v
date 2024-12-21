@@ -1,0 +1,41 @@
+`timescale 1ns/1ns
+module dff_tb();
+    reg D, Clock, en, rst;
+    wire Q;
+
+    dff UT (D, Clock, en, rst, Q);
+
+    initial begin
+        Clock = 1'b0;
+        forever #5 Clock = ~Clock;
+    end
+
+    initial begin
+        D = 1'b1;
+        en = 1'b1;
+        rst = 1'b0;
+        #7.5;
+
+        D = 1'b0;
+        en = 1'b1;
+        rst = 1'b0;
+        #10;
+
+        D = 1'b1;
+        en = 1'b1;
+        rst = 1'b0;
+        #5;
+
+        D = 1'b0;
+        en = 1'b1;
+        rst = 1'b0;
+        #5;
+
+        D = 1'b1;
+        en = 1'b1;
+        rst = 1'b1;
+        #5;
+
+        $finish;
+    end
+endmodule
