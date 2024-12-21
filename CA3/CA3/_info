@@ -124,3 +124,95 @@ R8
 !i113 1
 R4
 R5
+vshift_register_24
+Z9 !s110 1734809811
+!i10b 1
+!s100 GiH`5WRabnSE^fBaKQVh>3
+R0
+I<z5a:PR9b1LkalmN3Q7631
+R1
+R2
+Z10 w1734809802
+Z11 8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v
+Z12 FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v
+!i122 70
+L0 1 39
+R3
+r1
+!s85 0
+31
+Z13 !s108 1734809811.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v|
+!i113 1
+R4
+R5
+vshift_register_24_tb
+Z15 !s110 1734807411
+!i10b 1
+!s100 @g2:DS_Qg81g0I;O2?W6G0
+R0
+II33[6ejbf1j]9bB5j?mUa3
+R1
+R2
+Z16 w1734795813
+Z17 8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v
+Z18 FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v
+!i122 69
+L0 2 46
+R3
+r1
+!s85 0
+31
+Z19 !s108 1734807411.000000
+Z20 !s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v|
+!i113 1
+R4
+R5
+vshift_register_80
+R9
+!i10b 1
+!s100 i;J=AdG^Q<b`T_bY33YdU0
+R0
+ID_Q9WVzHzPf<lIZYg>aoG0
+R1
+R2
+R10
+R11
+R12
+!i122 70
+L0 42 39
+R3
+r1
+!s85 0
+31
+R13
+Z22 !s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v|
+R14
+!i113 1
+R4
+R5
+vshift_register_80_tb
+R15
+!i10b 1
+!s100 Y9P::K70VJkYWal26_9hQ1
+R0
+I0^_gYhM2g_df[joW_Wimj0
+R1
+R2
+R16
+R17
+R18
+!i122 69
+L0 50 46
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R4
+R5
