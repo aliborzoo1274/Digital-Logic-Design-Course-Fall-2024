@@ -42,4 +42,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dff_tb
 
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register_24
+-- Compiling module shift_register_80
+
+Top level modules:
+	shift_register_24
+	shift_register_80
+
 } {} {}}

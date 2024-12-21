@@ -1,14 +1,14 @@
 module shift_register_24 (
     input Ser_In,
-    input [0:23] Par_In,
+    input [23:0] Par_In,
     input Par_load,
     input shift_en,
     input rst,
     input clk,
-    output [0:23] Par_out,
+    output [23:0] Par_out,
     output Ser_Out
 );
-    wire [0:23] shift_reg;
+    wire [23:0] shift_reg;
     genvar i;
 
     generate
@@ -41,15 +41,15 @@ endmodule
 
 module shift_register_80 (
     input Ser_In,
-    input [0:79] Par_In,
+    input [79:0] Par_In,
     input Par_load,
     input shift_en,
     input rst,
     input clk,
-    output [0:79] Par_out,
+    output [79:0] Par_out,
     output Ser_Out
 );
-    wire [0:79] shift_reg;
+    wire [79:0] shift_reg;
     genvar i;
 
     generate
