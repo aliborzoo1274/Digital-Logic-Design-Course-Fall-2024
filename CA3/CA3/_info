@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA2
+vgated_d_latch
+Z0 !s110 1734764440
+!i10b 1
+!s100 E^g_W6H;>=_k4FZd2j@i[1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAWRVmdAGkoC:Cef613<8d2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3
+w1734764427
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v
+!i122 62
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1734764440.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v|
+!s90 -reportprogress|300|-work|CA3|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v|
+!i113 1
+o-work CA3
+Z6 tCvgOpt 0
+vgated_d_latch_tb
+R0
+!i10b 1
+!s100 DV_b[9]CUj9AbM^?=h>6G2
+R1
+I3_`?Fdl1Y0nd5g:ezSkcW3
+R2
+R3
+w1734764202
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v
+!i122 63
+L0 2 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v|
+!i113 1
+Z7 o-work work
+R6
+vmux2to1
+R0
+!i10b 1
+!s100 z;I3Q8LEMWhPgGfADFfiW1
+R1
+I17UPkI6QgXoOH57lVGG7j2
+R2
+R3
+w1734762208
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Mux2to1.v
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Mux2to1.v
+!i122 64
+L0 1 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Mux2to1.v|
+!i113 1
+R7
+R6
