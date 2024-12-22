@@ -36,6 +36,6 @@ module gated_d_latch_tb();
         rst = 1'b1;
         #5;
 
-        $finish;
+        $stop;
     end
 endmodule

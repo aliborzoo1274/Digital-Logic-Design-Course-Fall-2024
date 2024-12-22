@@ -28,13 +28,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dff
 
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gated_d_latch_tb
-
-Top level modules:
-	gated_d_latch_tb
-
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Mux2to1.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Mux2to1.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mux2to1
