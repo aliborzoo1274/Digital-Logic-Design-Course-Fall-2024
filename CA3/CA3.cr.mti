@@ -1,11 +1,4 @@
-{E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v} {1 {vlog -work CA3 -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gated_d_latch
-
-Top level modules:
-	gated_d_latch
-
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v}
+{E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module shift_register_24_tb
 -- Compiling module shift_register_80_tb
@@ -13,6 +6,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	shift_register_24_tb
 	shift_register_80_tb
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v} {1 {vlog -work CA3 -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gated_d_latch
+
+Top level modules:
+	gated_d_latch
 
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -42,18 +42,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux2to1
 
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB.v}
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Shift_Register.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module lfsr_tb
+-- Compiling module shift_register_24
+-- Compiling module shift_register_80
 
 Top level modules:
-	lfsr_tb
-
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/DFF_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/DFF_TB.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module dff_tb
-
-Top level modules:
-	dff_tb
+	shift_register_24
+	shift_register_80
 
 } {} {}}

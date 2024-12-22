@@ -48,6 +48,6 @@ module lfsr_tb();
         shift_en = 1'b1;
         #50;
 
-        $finish;
+        $stop;
     end
 endmodule

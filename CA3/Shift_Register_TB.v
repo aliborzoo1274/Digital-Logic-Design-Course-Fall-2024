@@ -42,7 +42,7 @@ module shift_register_24_tb();
         rst = 1'b1;
         #10 rst = 1'b0;
 
-        $finish;
+        $stop;
     end
 endmodule
 
@@ -90,6 +90,6 @@ module shift_register_80_tb();
         rst = 1'b1;
         #10 rst = 1'b0;
 
-        $finish;
+        $stop;
     end
 endmodule
