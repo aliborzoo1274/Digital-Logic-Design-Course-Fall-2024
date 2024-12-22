@@ -101,6 +101,52 @@ R5
 !i113 1
 R6
 R7
+vgrain
+!s110 1734895522
+!i10b 1
+!s100 ja5a6OGWU`fgz?edoFSUX3
+R1
+IXaV:jIlK>3P8QTn[C5m043
+R2
+R3
+w1734895262
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain.v
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain.v
+!i122 93
+L0 1 51
+R4
+r1
+!s85 0
+31
+!s108 1734895522.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain.v|
+!i113 1
+R6
+R7
+vgrain_tb
+!s110 1734895664
+!i10b 1
+!s100 Z]:WKDVb8g2VNT0n_84=02
+R1
+IQ87zB5hKD3@CNEI1EVII02
+R2
+R3
+w1734895605
+8E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v
+FE:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v
+!i122 95
+L0 2 50
+R4
+r1
+!s85 0
+31
+!s108 1734895664.000000
+!s107 E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v|
+!i113 1
+R6
+R7
 vlfsr
 Z9 !s110 1734890725
 !i10b 1
