@@ -13,7 +13,7 @@ module shift_register_24 (
 
     generate
         for (i = 0; i < 24; i = i + 1) begin : gen_shift_24
-            if (i == 0) begin
+            if (i == 23) begin
                 dff u_dff (
                     .D(Par_load ? Par_In[i] : (shift_en ? Ser_In : shift_reg[i])),
                     .Clock(clk),
@@ -23,7 +23,7 @@ module shift_register_24 (
                 );
             end else begin
                 dff u_dff (
-                    .D(Par_load ? Par_In[i] : (shift_en ? shift_reg[i-1] : shift_reg[i])),
+                    .D(Par_load ? Par_In[i] : (shift_en ? shift_reg[i+1] : shift_reg[i])),
                     .Clock(clk),
                     .en(shift_en | Par_load),
                     .rst(rst),
@@ -34,7 +34,7 @@ module shift_register_24 (
     endgenerate
 
     assign Par_out = shift_reg;
-    assign Ser_Out = shift_reg[23];
+    assign Ser_Out = shift_reg[0];
 
 endmodule
 
@@ -54,7 +54,7 @@ module shift_register_80 (
 
     generate
         for (i = 0; i < 80; i = i + 1) begin : gen_shift_80
-            if (i == 0) begin
+            if (i == 79) begin
                 dff u_dff (
                     .D(Par_load ? Par_In[i] : (shift_en ? Ser_In : shift_reg[i])),
                     .Clock(clk),
@@ -64,7 +64,7 @@ module shift_register_80 (
                 );
             end else begin
                 dff u_dff (
-                    .D(Par_load ? Par_In[i] : (shift_en ? shift_reg[i-1] : shift_reg[i])),
+                    .D(Par_load ? Par_In[i] : (shift_en ? shift_reg[i+1] : shift_reg[i])),
                     .Clock(clk),
                     .en(shift_en | Par_load),
                     .rst(rst),
@@ -75,6 +75,6 @@ module shift_register_80 (
     endgenerate
 
     assign Par_out = shift_reg;
-    assign Ser_Out = shift_reg[79];
+    assign Ser_Out = shift_reg[0];
 
 endmodule
