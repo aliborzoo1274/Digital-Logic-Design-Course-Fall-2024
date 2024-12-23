@@ -1,14 +1,14 @@
 `timescale 1ns/1ns
-module nfsr_tb();
+module lfsr_tb1();
     reg clk;
     reg rst;
     reg shift_en;
     reg Par_load;
-    reg [23:0] Seed;
-    wire [23:0] Par_out;
+    reg [79:0] Seed;
+    wire [79:0] Par_out;
     wire Ser_out;
 
-    nfsr uut (
+    lfsr uut (
         .clk(clk),
         .rst(rst),
         .shift_en(shift_en),
@@ -24,29 +24,19 @@ module nfsr_tb();
     end
 
     initial begin
-        rst = 1'b0;
-        shift_en = 1'b0;
-        Par_load = 1'b0;
-        Seed = 80'h123456;
-        #10;
-
         rst = 1'b1;
-        #10;
-        rst = 1'b0;
-        #10;
-
-        Par_load = 1'b1;
-        #10;
-        Par_load = 1'b0;
-
-        shift_en = 1'b1;
-        #100;
-
         shift_en = 1'b0;
-        #20;
+        Par_load = 1'b0;
+        Seed = 80'h123456789abcdef01234;
+        #5;
 
+        rst = 1'b0;
+        Par_load = 1'b1;
+        #5;
+
+        Par_load = 1'b0;
         shift_en = 1'b1;
-        #50;
+        #90;
 
         $stop;
     end

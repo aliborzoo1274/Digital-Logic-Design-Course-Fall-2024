@@ -37,12 +37,54 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	gated_d_latch
 
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB1.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lfsr_tb1
+
+Top level modules:
+	lfsr_tb1
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB2.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lfsr_tb2
+
+Top level modules:
+	lfsr_tb2
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB1.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module grain_tb1
+
+Top level modules:
+	grain_tb1
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR_TB1.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR_TB1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nfsr_tb1
+
+Top level modules:
+	nfsr_tb1
+
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module lfsr
 
 Top level modules:
 	lfsr
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR_TB2.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR_TB2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nfsr_tb2
+
+Top level modules:
+	nfsr_tb2
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB2.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module grain_tb2
+
+Top level modules:
+	grain_tb2
 
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Gated_D_Latch_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -65,25 +107,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	nfsr
 
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module lfsr_tb
-
-Top level modules:
-	lfsr_tb
-
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/DFF_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/DFF_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module dff_tb
 
 Top level modules:
 	dff_tb
-
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module grain_tb
-
-Top level modules:
-	grain_tb
 
 } {} {}}

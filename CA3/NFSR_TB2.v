@@ -1,19 +1,21 @@
 `timescale 1ns/1ns
-module grain_tb();
+module nfsr_tb2();
     reg clk;
     reg rst;
     reg shift_en;
     reg Par_load;
-    reg [104:0] Seed;
-    wire out;
+    reg [23:0] Seed;
+    wire [23:0] Par_out;
+    wire Ser_out;
 
-    grain uut (
+    nfsr uut (
         .clk(clk),
         .rst(rst),
         .shift_en(shift_en),
         .Par_load(Par_load),
         .Seed(Seed),
-        .out(out)
+        .Par_out(Par_out),
+        .Ser_out(Ser_out)
     );
 
     initial begin
@@ -22,29 +24,19 @@ module grain_tb();
     end
 
     initial begin
-        rst = 1'b0;
-        shift_en = 1'b0;
-        Par_load = 1'b0;
-        Seed = 104'h123456789ABCDEF012346789AB;
-        #10;
-
         rst = 1'b1;
-        #10;
-        rst = 1'b0;
-        #10;
-
-        Par_load = 1'b1;
-        #10;
-        Par_load = 1'b0;
-
-        shift_en = 1'b1;
-        #100;
-
         shift_en = 1'b0;
-        #20;
+        Par_load = 1'b0;
+        Seed = 24'habcdef;
+        #5;
 
+        rst = 1'b0;
+        Par_load = 1'b1;
+        #5;
+
+        Par_load = 1'b0;
         shift_en = 1'b1;
-        #50;
+        #90;
 
         $stop;
     end

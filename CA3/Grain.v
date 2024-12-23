@@ -4,7 +4,9 @@ module grain (
     input shift_en,
     input Par_load,
     input [103:0] Seed,
-    output out
+    output out,
+    output [79:0] out_l,
+    output [23:0] out_n
 );
     wire feedback1, feedback2, feedback3;
     wire [79:0] shift_reg1;
@@ -14,7 +16,7 @@ module grain (
 
     shift_register_80 u_shift_register1 (
         .Ser_In(feedback1),
-        .Par_In(Seed[103:24]),
+        .Par_In(Seed[79:0]),
         .Par_load(Par_load),
         .shift_en(shift_en),
         .rst(rst),
@@ -25,7 +27,7 @@ module grain (
 
     shift_register_24 u_shift_register2 (
         .Ser_In(xorin),
-        .Par_In(Seed[23:0]),
+        .Par_In(Seed[103:80]),
         .Par_load(Par_load),
         .shift_en(shift_en),
         .rst(rst),
@@ -47,5 +49,8 @@ module grain (
 
     assign out = out2 ^ feedback3;
     assign xorin = out1 ^ feedback2;
+
+    assign out_l = shift_reg1;
+    assign out_n = shift_reg2;
 
 endmodule
