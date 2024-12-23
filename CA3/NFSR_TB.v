@@ -4,8 +4,8 @@ module nfsr_tb();
     reg rst;
     reg shift_en;
     reg Par_load;
-    reg [79:0] Seed;
-    wire [79:0] Par_out;
+    reg [23:0] Seed;
+    wire [23:0] Par_out;
     wire Ser_out;
 
     nfsr uut (
@@ -27,7 +27,7 @@ module nfsr_tb();
         rst = 1'b0;
         shift_en = 1'b0;
         Par_load = 1'b0;
-        Seed = 80'h123456789ABCDEF01234;
+        Seed = 80'h123456;
         #10;
 
         rst = 1'b1;

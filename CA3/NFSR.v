@@ -3,14 +3,14 @@ module nfsr (
     input rst,
     input shift_en,
     input Par_load,
-    input [79:0] Seed,
-    output [79:0] Par_out,
+    input [23:0] Seed,
+    output [23:0] Par_out,
     output Ser_out
 );
     wire feedback;
-    wire [79:0] shift_reg;
+    wire [23:0] shift_reg;
 
-    shift_register_80 u_shift_register (
+    shift_register_24 u_shift_register (
         .Ser_In(feedback),
         .Par_In(Seed),
         .Par_load(Par_load),

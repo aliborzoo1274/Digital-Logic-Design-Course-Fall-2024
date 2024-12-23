@@ -51,19 +51,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	gated_d_latch_tb
 
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module nfsr
-
-Top level modules:
-	nfsr
-
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module grain
 
 Top level modules:
 	grain
+
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nfsr
+
+Top level modules:
+	nfsr
 
 } {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/LFSR_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -79,11 +79,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dff_tb
 
-} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/NFSR_TB.v}
+} {} {}} {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v} {1 {vlog -work work -stats=none {E:/UT Programming/Digital-Logic-Design-Course-Fall-2024/CA3/Grain_TB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module nfsr_tb
+-- Compiling module grain_tb
 
 Top level modules:
-	nfsr_tb
+	grain_tb
 
 } {} {}}

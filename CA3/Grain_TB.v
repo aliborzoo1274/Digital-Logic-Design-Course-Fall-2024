@@ -4,7 +4,7 @@ module grain_tb();
     reg rst;
     reg shift_en;
     reg Par_load;
-    reg [79:0] Seed;
+    reg [104:0] Seed;
     wire out;
 
     grain uut (
@@ -25,7 +25,7 @@ module grain_tb();
         rst = 1'b0;
         shift_en = 1'b0;
         Par_load = 1'b0;
-        Seed = 80'h123456789ABCDEF01234;
+        Seed = 104'h123456789ABCDEF012346789AB;
         #10;
 
         rst = 1'b1;
