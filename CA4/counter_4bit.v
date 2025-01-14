@@ -8,7 +8,7 @@ module counter_4bit (
     output wire c_out
 );
 
-    assign c_out = (count == 4'b1111) && enable && !load;
+    assign c_out = (count == 4'b1110) && enable && !load;
 
     always @(posedge clk) begin
         if (reset) begin

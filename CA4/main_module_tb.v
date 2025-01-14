@@ -1,10 +1,10 @@
 `timescale 1ns/1ns
 module main_module_tb;
+
     reg clk;
     reg reset;
     reg start;
     reg [3:0] start_address;
-
     wire done;
     wire [15:0] out;
 
@@ -27,17 +27,19 @@ module main_module_tb;
         start = 0;
         start_address = 4'b0000;
 
-        #20;
+        #10;
         reset = 0;
-
-        #10;
-        start_address = 4'b0101;
         start = 1;
-
-        #10;
+        start_address = 4'b0010;
+        
+        #20;
+        start_address = 4'b0101;
+        
+        #100;
+        start_address = 4'b0100;
         start = 0;
-
-        #10;
+        
+        #50;
         $stop;
     end
 

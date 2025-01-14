@@ -8,7 +8,7 @@ module counter_2bit (
     output wire c_out
 );
 
-    assign c_out = (count == 2'b11) && enable && !load;
+    assign c_out = (count == 2'b10) && enable && !load;
 
     always @(posedge clk) begin
         if (reset) begin

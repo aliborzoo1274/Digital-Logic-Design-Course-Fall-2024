@@ -8,8 +8,9 @@ module controller (
     output done
 );
 
-    reg [2:1] y, Y;
-    parameter [2:1] IDLE = 2'b00, read_memory = 2'b01, first_multiplication = 2'b10, finish = 2'b11;
+    reg [3:1] y, Y;
+    parameter [3:1] IDLE = 3'b000, read_memory = 3'b001, first_multiplication = 3'b010,
+    second_multiplication = 3'b011, subtraction = 3'b100, finish = 3'b101;
 
     always @(*) begin
         case (y)
@@ -19,12 +20,16 @@ module controller (
             read_memory: if (carry_out) Y = first_multiplication;
                          else           Y = read_memory;
 
-            first_multiplication: Y = finish;
+            first_multiplication: Y = second_multiplication;
+
+            second_multiplication: Y = subtraction;
+
+            subtraction: Y = finish;
 
             finish: if (start) Y = IDLE;
                     else       Y = finish;
 
-            default: Y = 2'bxx;
+            default: Y = IDLE;
         endcase
     end
 
@@ -33,7 +38,7 @@ module controller (
 
     assign rst = (y == IDLE);
     assign en_counter = (y == read_memory);
-    assign sel = (y == finish);
+    assign sel = (y == second_multiplication);
     assign done = (y == finish);
 
 endmodule
